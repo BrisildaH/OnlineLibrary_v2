@@ -1,0 +1,54 @@
+﻿@model IEnumerable<OnlineLibrary.DataLayer.Entiteties.Book>
+<div>
+    <table class="table-bordered">
+        <tr>
+            <td>
+                Id
+            </td>
+            <td>
+                Title
+            </td>
+            <td>
+                Description
+            </td>
+            <td>
+                Category
+            </td>
+            <td>
+                Author
+            </td>
+            <td>
+                ISBN
+            </td>
+            <td>
+                Action
+            </td>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.Id
+                </td>
+                <td>
+                    @item.Title
+                </td>
+                <td>
+                    @item.Description
+                </td>
+                <td>
+                    @item.Category
+                </td>
+                <td>
+                    @item.Author.FullName
+                </td>
+                <td>
+                    @item.ISBN
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>

@@ -1,0 +1,366 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|c:\\users\\user\\desktop\\.net\\coding\\11. asp.net core mvc\\onlinelibrary\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\datalayer\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\datalayer\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\datalayer\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\datalayer\\repositories\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\repositories\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\businesslayer\\service\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:businesslayer\\service\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\businesslayer\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:businesslayer\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\businesslayer\\service\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:businesslayer\\service\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\businesslayer\\service\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:businesslayer\\service\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\datalayer\\entiteties\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\entiteties\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\datalayer\\entiteties\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\entiteties\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\datalayer\\dbcontext\\onlinelibrarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\dbcontext\\onlinelibrarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\onlinelibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:onlinelibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\views\\authors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\authors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 209,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Entiteties\\Book.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Entiteties\\Book.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Entiteties\\Book.cs",
+              "RelativeToolTip": "DataLayer\\Entiteties\\Book.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T09:34:57.669Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAtwBUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T09:34:18.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthorsController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "Controllers\\AuthorsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T21:14:46.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T11:33:23.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T12:26:16.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Books\\Details.cshtml",
+              "RelativeToolTip": "Views\\Books\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T12:45:52.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "Views\\Books\\Index.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAowCQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T11:43:42.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Repositories\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "DataLayer\\Repositories\\BookRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:55:03.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Repositories\\AuthorRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Repositories\\AuthorRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Repositories\\AuthorRepository.cs",
+              "RelativeToolTip": "DataLayer\\Repositories\\AuthorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:55:21.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Repositories\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Repositories\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Repositories\\IBookRepository.cs",
+              "RelativeToolTip": "DataLayer\\Repositories\\IBookRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:06:43.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAuthorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Repositories\\IAuthorRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Repositories\\IAuthorRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Repositories\\IAuthorRepository.cs",
+              "RelativeToolTip": "DataLayer\\Repositories\\IAuthorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:06:27.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-14T09:45:51.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\BusinessLayer\\Service\\AuthorService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Service\\AuthorService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\BusinessLayer\\Service\\AuthorService.cs",
+              "RelativeToolTip": "BusinessLayer\\Service\\AuthorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:54:36.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\BusinessLayer\\Service\\BookService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Service\\BookService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\BusinessLayer\\Service\\BookService.cs",
+              "RelativeToolTip": "BusinessLayer\\Service\\BookService.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAAAJUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:54:25.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\BusinessLayer\\Service\\IAuthorService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Service\\IAuthorService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\BusinessLayer\\Service\\IAuthorService.cs",
+              "RelativeToolTip": "BusinessLayer\\Service\\IAuthorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:06:00.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\BusinessLayer\\Service\\IBookService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Service\\IBookService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\BusinessLayer\\Service\\IBookService.cs",
+              "RelativeToolTip": "BusinessLayer\\Service\\IBookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:05:43.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Entiteties\\Author.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Entiteties\\Author.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Entiteties\\Author.cs",
+              "RelativeToolTip": "DataLayer\\Entiteties\\Author.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T09:35:54.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OnlineLibraryDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\DBContext\\OnlineLibraryDbContext.cs",
+              "RelativeDocumentMoniker": "DataLayer\\DBContext\\OnlineLibraryDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\DBContext\\OnlineLibraryDbContext.cs",
+              "RelativeToolTip": "DataLayer\\DBContext\\OnlineLibraryDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T09:49:18.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OnlineLibrary",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\OnlineLibrary.csproj",
+              "RelativeDocumentMoniker": "OnlineLibrary.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\OnlineLibrary.csproj",
+              "RelativeToolTip": "OnlineLibrary.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-16T15:53:26.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Authors\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Authors\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Authors\\Details.cshtml",
+              "RelativeToolTip": "Views\\Authors\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T21:21:59.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Authors\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Authors\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Authors\\Index.cshtml",
+              "RelativeToolTip": "Views\\Authors\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T21:19:21.04Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
