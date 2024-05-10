@@ -1,0 +1,33 @@
+﻿@model OnlineLibrary.DataLayer.Entiteties.Client
+@{
+    ViewData["Title"] = "Update";
+}
+<h1>Create</h1>
+<div class="update-form">
+    <form asp-action="Update">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="FullName" class="control-label"></label>
+            <input asp-for="FullName" class="form-control" />
+            <span asp-validation-for="FullName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Email" class="control-label"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        
+        <div class="form-group">
+            <input type="submit" value="Update" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
+<style scoped>
+    .create-form {
+        border: solid black 1px;
+        max-height: 500px;
+        max-width: 500px;
+        margin: auto;
+        padding: 10px;
+    }
+</style>

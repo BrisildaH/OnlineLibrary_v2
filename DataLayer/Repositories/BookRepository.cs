@@ -33,7 +33,7 @@ namespace OnlineLibrary.DataLayer.Repositories
 				throw ex;
 			}
 		}
-		//Add video
+		//Add book
 		public void AddBook(Book book)
 		{
 			try

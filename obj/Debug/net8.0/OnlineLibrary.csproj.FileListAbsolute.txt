@@ -135,3 +135,4 @@ C:\Users\User\Desktop\.NET\Coding\11. ASP.NET core MVC\OnlineLibrary\obj\Debug\n
 C:\Users\User\Desktop\.NET\Coding\11. ASP.NET core MVC\OnlineLibrary\obj\Debug\net8.0\OnlineLibrary.pdb
 C:\Users\User\Desktop\.NET\Coding\11. ASP.NET core MVC\OnlineLibrary\obj\Debug\net8.0\OnlineLibrary.genruntimeconfig.cache
 C:\Users\User\Desktop\.NET\Coding\11. ASP.NET core MVC\OnlineLibrary\obj\Debug\net8.0\ref\OnlineLibrary.dll
+C:\Users\User\Desktop\.NET\Coding\11. ASP.NET core MVC\OnlineLibrary\obj\Debug\net8.0\OnlineLibrary.sourcelink.json

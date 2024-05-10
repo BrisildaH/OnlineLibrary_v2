@@ -1,20 +1,46 @@
 ﻿@model OnlineLibrary.DataLayer.Entiteties.Book
 <div class="card">
-	<div class="card-header">
-		<img src="../wwwroot/images/books/The idiot.jpeg" width="300" height="400" />
-		<h6>@Model.Title</h6>
-	</div>
-	<div class="card-body">
-		<h7>
-			@Model.Description
-		</h7>
-		<div class="card-body">
-			<h8>
-				@Model.Category
-			</h8>
-			<div class="card-body">
-				<h8>
-					@Model.ISBN
-				</h8>
-		</div>
-	</div>
+    <div class="card-header">
+        <img src="/images/books/@Model.PhotoPath" width="300" height="400" />
+        <h3>Title of book: @Model.Title</h3>
+    </div>
+    <div class="card-body">
+        <h4>Description:</h4>
+        <p>@Model.Description</p>
+        <h4>Category:</h4>
+        <p>@Model.Category</p>
+        <h4>ISBN:</h4>
+        <p>@Model.ISBN</p>
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="Id" />
+            <input type="submit" value="Delete" class="btn btn-danger" />
+        </form>
+    </div>
+</div>
+
+<style>
+    .card {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+
+    .card-header h3 {
+        margin-top: 0;
+    }
+
+    .card-body h4 {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .card-body p {
+        margin-top: 0;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+</style>

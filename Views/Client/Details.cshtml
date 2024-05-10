@@ -1,0 +1,59 @@
+﻿@model OnlineLibrary.DataLayer.Entiteties.Client
+<div class="card">
+	<div class="card-header">
+		<img src="/images/clients/@Model.PhotoPath" width="300" height="400" />
+		<h3>Client: @Model.FullName</h3>
+	</div>
+	<div class="card-body">
+		<h4>Email:</h4>
+		<p>@Model.Email</p>
+
+		<form asp-action="Delete" style="display: inline;">
+			<input type="hidden" asp-for="ID" />
+			<input type="submit" value="Delete" class="btn btn-danger" />
+		</form>
+
+		@if (Model.IsActive.HasValue && Model.IsActive == false)
+		{
+			<form asp-action="Activate" style="display: inline;">
+				<input type="hidden" asp-for="ID" />
+				<input type="submit" value="Activate" class="btn btn-success" />
+			</form>
+		}
+		else
+		{
+			<form asp-action="Deactivate" style="display: inline;">
+				<input type="hidden" asp-for="ID" />
+				<input type="submit" value="Deactivate" class="btn btn-warning" />
+			</form>
+		}
+	</div>
+</div>
+<style>
+	.card {
+		max-width: 600px;
+		margin: 20px auto;
+		padding: 20px;
+		border: 1px solid #ddd;
+		border-radius: 10px;
+	}
+
+	.card-header h3 {
+		margin-top: 0;
+	}
+
+	.card-body h4 {
+		margin-top: 20px;
+		margin-bottom: 5px;
+	}
+
+	.card-body p {
+		margin-top: 0;
+	}
+
+	.btn {
+		margin-top: 20px;
+		margin-right: 5px;
+	}
+
+</style>

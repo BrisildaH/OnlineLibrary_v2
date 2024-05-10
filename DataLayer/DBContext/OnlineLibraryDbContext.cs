@@ -14,7 +14,9 @@ namespace OnlineLibrary.DataLayer.DBContext
         }
         public DbSet<Book> Books { get; set; }
         public DbSet<Author> Authors { get; set; }
-       
+        public DbSet<Client> Clients { get; set; }
+        public DbSet<ClientBook> ClientBooks { get; set; }
+
     }
 
 }

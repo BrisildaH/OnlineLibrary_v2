@@ -17,8 +17,28 @@
       "PackagePath": "staticwebassets\\images\\authors\\Dostoevsky.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\wwwroot\\images\\authors\\Ernesto Sabato.jpeg",
+      "PackagePath": "staticwebassets\\images\\authors\\Ernesto Sabato.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\wwwroot\\images\\authors\\Marcus Aurelius.jpeg",
+      "PackagePath": "staticwebassets\\images\\authors\\Marcus Aurelius.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\wwwroot\\images\\authors\\Theodore Dreiser.jpeg",
+      "PackagePath": "staticwebassets\\images\\authors\\Theodore Dreiser.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\wwwroot\\images\\authors\\Victor-Marie Hugo.jpeg",
+      "PackagePath": "staticwebassets\\images\\authors\\Victor-Marie Hugo.jpeg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\wwwroot\\images\\authors\\dan brown.jpeg",
       "PackagePath": "staticwebassets\\images\\authors\\dan brown.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\wwwroot\\images\\authors\\seneca.jpeg",
+      "PackagePath": "staticwebassets\\images\\authors\\seneca.jpeg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\wwwroot\\images\\authors\\shakespeare.jpeg",
@@ -49,8 +69,20 @@
       "PackagePath": "staticwebassets\\images\\books\\King Lear.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\wwwroot\\images\\books\\Meditations.jpeg",
+      "PackagePath": "staticwebassets\\images\\books\\Meditations.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\wwwroot\\images\\books\\On the Shortness of Life.jpeg",
+      "PackagePath": "staticwebassets\\images\\books\\On the Shortness of Life.jpeg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\wwwroot\\images\\books\\Origin.jpeg",
       "PackagePath": "staticwebassets\\images\\books\\Origin.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\wwwroot\\images\\books\\The Financier.jpeg",
+      "PackagePath": "staticwebassets\\images\\books\\The Financier.jpeg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\wwwroot\\images\\books\\The code of Da Vinci.jpeg",
@@ -59,6 +91,14 @@
     {
       "Id": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\wwwroot\\images\\books\\The idiot.jpeg",
       "PackagePath": "staticwebassets\\images\\books\\The idiot.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\wwwroot\\images\\clients\\alba.jpeg",
+      "PackagePath": "staticwebassets\\images\\clients\\alba.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\wwwroot\\images\\clients\\bris.jpeg",
+      "PackagePath": "staticwebassets\\images\\clients\\bris.jpeg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\wwwroot\\js\\site.js",

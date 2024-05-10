@@ -1,16 +1,64 @@
 ﻿@model OnlineLibrary.DataLayer.Entiteties.Author
 <div class="card">
-    <div class="card-header">
-        <img src="../images/authors/Dostoevsky.jpg" width="300" height="400" />
-        <h6>@Model.FullName</h6>
-    </div>
-    <div class="card-body">
-        <h7>
-            @Model.Description
-        </h7>
-        <div class="card-body">
-            <h8>
-                @Model.NumberOfBooks
-            </h8>
-        </div>
-    </div>
+	<div class="card-header">
+		<img src="/images/authors/@Model.PhotoPath" width="300" height="400" />
+		<h3>Author: @Model.FullName</h3>
+	</div>
+	<div class="card-body">
+		<h4>Description:</h4>
+		<p>@Model.Description</p>
+		<h4>Number of books:</h4>
+		<p>@Model.NumberOfBooks</p>
+
+		<a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-primary">Update</a>
+
+		<form asp-action="Delete" style="display: inline;">
+			<input type="hidden" asp-for="Id" />
+			<input type="submit" value="Delete" class="btn btn-danger" />
+		</form>
+
+		@if (Model.IsActive.HasValue && Model.IsActive == false)
+		{
+			<form asp-action="Activate" style="display: inline;">
+				<input type="hidden" asp-for="Id" />
+				<input type="submit" value="Activate" class="btn btn-success" />
+			</form>
+		}
+		else
+		{
+			<form asp-action="Deactivate" style="display: inline;">
+				<input type="hidden" asp-for="Id" />
+				<input type="submit" value="Deactivate" class="btn btn-warning" />
+			</form>
+		}
+	</div>
+</div>
+
+<style>
+	.card {
+		max-width: 600px;
+		margin: 20px auto;
+		padding: 20px;
+		border: 1px solid #ddd;
+		border-radius: 10px;
+	}
+
+	.card-header h3 {
+		margin-top: 0;
+	}
+
+	.card-body h4 {
+		margin-top: 20px;
+		margin-bottom: 5px;
+	}
+
+	.card-body p {
+		margin-top: 0;
+	}
+
+	.btn {
+		margin-top: 20px;
+		margin-right: 5px;
+	}
+
+</style>
