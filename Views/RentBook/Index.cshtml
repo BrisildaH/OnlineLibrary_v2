@@ -1,62 +1,62 @@
 ﻿@model IEnumerable<OnlineLibrary.DataLayer.Entiteties.ClientBook>
 
 <div class="card">
-    <table class="table table-bordered table-hover">
-        <thead class="thead-dark">
-            <tr>
-                @* <th scope="col">Id</th> *@
-                <th scope="col">Title</th>
-                <th scope="col">Author</th>
-                <th scope="col">ISBN</th>
-                <th scope ="col">Client</th>
-                <th scope="col ">Date</th>
-                <th scope="col">Status</th>
-                @* <th>scope="col">Expired</th> *@
-            </tr>
-        </thead>
-        <tbody>
+	<table class="table table-bordered table-hover">
+		<thead class="thead-dark">
+			<tr>
+				@* <th scope="col">Id</th> *@
+				<th scope="col">Title</th>
+				<th scope="col">Author</th>
+				<th scope="col">ISBN</th>
+				<th scope="col">Client</th>
+				<th scope="col ">Date</th>
+				<th scope="col">Status</th>
+				@* <th>scope="col">Expired</th> *@
+			</tr>
+		</thead>
+		<tbody>
 
-            </tr>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    @*  <td>
-                        @item.Book.Id
-                    </td> *@
-                    <td>
-                        @item.Book.Title
-                    </td>
-                
-                    <td>
-                        @item.Book.Author.FullName
-                    </td>
-                    <td>
-                        @item.Book.ISBN
-                    </td>
-                    <td>
-                    @item.Client.FullName
-                    </td>
-                    <td>
-                        @item.CreatedDate
-                    </td>
-                    <td>
-                        @item.Status
-                    </td>
-                   @*  @if ((datetime.now - item.createddate).days > 30)
-                        {
-                            <td>
-                                yes
-                            </td>
-                        }
-                        else
-                        {
-                            <td>
-                                no
-                            </td> *@
-                        @* } *@
-                   
-                </tr>
-            }
-        </tbody>
-    </table>
+			</tr>
+			@foreach (var item in Model)
+			{
+				<tr>
+					@*  <td>
+				@item.Book.Id
+				</td> *@
+					<td>
+						@item.Book.Title
+					</td>
+
+					<td>
+						@item.Book.Author.FullName
+					</td>
+					<td>
+						@item.Book.ISBN
+					</td>
+					<td>
+						@item.Client.FullName
+					</td>
+					<td>
+						@item.CreatedDate
+					</td>
+					<td>
+						@item.Status
+					</td>
+					@*  @if ((datetime.now - item.createddate).days > 30)
+				{
+				<td>
+				yes
+				</td>
+				}
+				else
+				{
+				<td>
+				no
+				</td> *@
+					@* } *@
+
+				</tr>
+			}
+		</tbody>
+	</table>
 </div>

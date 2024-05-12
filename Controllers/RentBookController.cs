@@ -13,18 +13,19 @@ namespace OnlineLibrary.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
-        {
+		public IActionResult Index()
+		{
+			
+			var rentBooks = _context.ClientBooks
+				.Include(p => p.Client)
+				.Include(p => p.Book).ThenInclude(p => p.Author)
+				.Where(p => p.IsDelete != false)
+				.OrderBy(p => p.Book.Title)
+				.ToList();
 
-            var rentbooks = _context.ClientBooks
-                .Include(p => p.Client)
-                .Include(p=> p.Book).ThenInclude(p=> p.Author)
-                 .Where(p => (p.IsDelete != false))
-                                      .OrderBy(p => p.Book.Title);
-            return View(rentbooks);
-        
-    }
-        public IActionResult Create()
+			return View(rentBooks);
+		}
+		public IActionResult Create()
         {
             var rentbookModel = new RentBookModel();
             rentbookModel.Clients = _context.Clients.Where(p => p.IsActive != false &&

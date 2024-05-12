@@ -13,6 +13,7 @@ namespace OnlineLibrary.DataLayer.Entiteties
         public bool? IsDeleted { get; set; }
         public bool? IsActive { get; set; }
 		public string? PhotoPath { get; set; }
+		public virtual List<ClientBook> ClientBooks { get; set; }
 
 	}
 

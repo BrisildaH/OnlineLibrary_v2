@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using OnlineLibrary.DataLayer.DBContext;
 using OnlineLibrary.DataLayer.Entiteties;
 
@@ -11,11 +12,15 @@ namespace OnlineLibrary.Controllers
         {
             _context = context;
         }
+
         public IActionResult Index()
         {
             var clients = _context.Clients
+                                  .Include(p => p.ClientBooks)
+                                   .ThenInclude(p=>p.Book)
                                   .Where(p => (p.IsDeleted == false || p.IsDeleted == null))
-                                  .OrderBy(p => p.FullName);
+                                  .OrderBy(p => p.FullName)
+                                  .ToList();
             return View(clients);
 
         }

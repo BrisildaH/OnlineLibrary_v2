@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\views\\client\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|c:\\users\\user\\desktop\\.net\\coding\\11. asp.net core mvc\\onlinelibrary\\views\\client\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\client\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|c:\\users\\user\\desktop\\.net\\coding\\11. asp.net core mvc\\onlinelibrary\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -142,8 +142,7 @@
               "RelativeToolTip": "Controllers\\ClientController.cs",
               "ViewState": "AQIAAHwAAAAAAAAAAAAYwI4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T11:44:49.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T11:44:49.343Z"
             },
             {
               "$type": "Document",
@@ -155,8 +154,7 @@
               "RelativeToolTip": "Controllers\\BooksController.cs",
               "ViewState": "AQIAAGQAAAAAAAAAAAAowIgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T08:35:26.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T08:35:26.986Z"
             },
             {
               "$type": "Document",
@@ -180,8 +178,7 @@
               "RelativeToolTip": "DataLayer\\Entiteties\\Author.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAxwBUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T08:54:01.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T08:54:01.574Z"
             },
             {
               "$type": "Document",
@@ -193,8 +190,7 @@
               "RelativeToolTip": "DataLayer\\Entiteties\\Book.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAkwBgAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T08:28:30.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T08:28:30.458Z"
             },
             {
               "$type": "Document",
@@ -206,8 +202,7 @@
               "RelativeToolTip": "DataLayer\\Entiteties\\Client.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAA3wA4AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T07:42:10.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T07:42:10.628Z"
             },
             {
               "$type": "Document",
@@ -219,8 +214,7 @@
               "RelativeToolTip": "Views\\Client\\Index.cshtml",
               "ViewState": "AQIAABQAAAAAAAAAAAAAACYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T20:08:13.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T20:08:13.288Z"
             },
             {
               "$type": "Document",
@@ -232,8 +226,7 @@
               "RelativeToolTip": "Views\\Books\\Index.cshtml",
               "ViewState": "AQIAACsAAAAAAAAAAAAAADwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T09:38:16.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T09:38:16.722Z"
             },
             {
               "$type": "Document",
@@ -245,8 +238,7 @@
               "RelativeToolTip": "Controllers\\AuthorsController.cs",
               "ViewState": "AQIAAHUAAAAAAAAAAAAuwHUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T07:19:29.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T07:19:29.237Z"
             },
             {
               "$type": "Document",
@@ -294,8 +286,7 @@
               "RelativeToolTip": "Views\\Authors\\Index.cshtml",
               "ViewState": "AQIAAHYAAAAAAAAAAAAwwIEAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T09:31:40.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T09:31:40.217Z"
             },
             {
               "$type": "Document",
@@ -317,7 +308,7 @@
               "RelativeDocumentMoniker": "Views\\Client\\Details.cshtml",
               "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Client\\Details.cshtml",
               "RelativeToolTip": "Views\\Client\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABDAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-09T20:24:19.184Z",
               "EditorCaption": ""
@@ -332,8 +323,7 @@
               "RelativeToolTip": "Views\\Client\\Create.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAA0AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T20:57:41.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T20:57:41.175Z"
             },
             {
               "$type": "Document",
@@ -345,8 +335,7 @@
               "RelativeToolTip": "Views\\Authors\\Details.cshtml",
               "ViewState": "AQIAACAAAAAAAAAAAAAwwD8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T08:36:24.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T08:36:24.874Z"
             },
             {
               "$type": "Document",
@@ -454,8 +443,7 @@
               "RelativeToolTip": "Views\\Books\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T08:46:00.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T08:46:00.98Z"
             },
             {
               "$type": "Document",
