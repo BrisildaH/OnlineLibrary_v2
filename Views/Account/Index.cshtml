@@ -1,7 +1,7 @@
-﻿@model IEnumerable<OnlineLibrary.DataLayer.Entiteties.Author>
-@using System.Security.Claims
-<a asp-action="Create">Create New</a>
-@using (Html.BeginForm("Index", "Authors", FormMethod.Get))
+﻿@model IEnumerable<OnlineLibrary.DataLayer.Entiteties.User>
+
+
+@using (Html.BeginForm("Index", "Users", FormMethod.Get))
 {
 	<label> Filter</label>
 	@Html.TextBox("filterTerm")
@@ -15,8 +15,9 @@
 			<tr>
 				@*  <th scope="col">Id</th> *@
 				<th scope="col">FullName</th>
-				<th scope="col">Description</th>
-				<th scope="col">Books</th>
+				<th scope="col">Email</th>
+				<th scope="col">IsActive</th>
+				<th scope="col">IsAdmin</th>
 				<th scope=" col">Status</th>
 				<th>Action</th>
 			</tr>
@@ -25,43 +26,29 @@
 			@foreach (var item in Model)
 			{
 				<tr>
-					@* <td>
-				@item.Id
-				</td> *@
 					<td>
 						@item.FullName
 					</td>
 					<td>
-						@item.Description
+						@item.Email
 					</td>
 					<td>
-						<ul>
-							@foreach (var book in item.Books)
-							{
-								if (book.IsDeleted != true)
-								{
-									<li>@book.Title</li>
-								}
-							}
-						</ul>
+						@item.IsActive
 					</td>
+					<td>
+					@item.IsAdmin
+					</td>
+					
 					<td>@(item.IsActive == false ? "Non Active" : "Active")</td>
 					<td>
-						<a asp-action="Details" asp-route-id="@item.Id">Details</a>
-						@if (User.Identity.IsAuthenticated &&
-																			User.Claims.Where(p => p.Type == ClaimTypes.Role).FirstOrDefault() != null &&
-																			User.Claims.Where(p => p.Type == ClaimTypes.Role).FirstOrDefault().Value == "Admin")
-						{
-							<a asp-action="Update" asp-route-id="@item.Id">Update</a>
-						}
+						<a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+						<a asp-action="Update" asp-route-id="@item.Id">Update</a>
 					</td>
 				</tr>
 			}
 		</tbody>
 	</table>
 </div>
-
-
 
 <style>
 	.table {

@@ -16,16 +16,23 @@ namespace OnlineLibrary.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
+        public IActionResult Index([FromQuery] string filterTerm)
         {
-
-            var books = _context.Books.Include(p => p.Author)
+            var books = _context.Books
+                 .Include(p => p.Author)
                  .Where(p => (p.IsDeleted == false || p.IsDeleted == null))
-                                      .OrderBy(p => p.Title);
+                 .OrderBy(p => p.Title)
+                 .ToList();
+
+            if (!string.IsNullOrEmpty(filterTerm))
+            {
+                books = books.Where(p => p.Title.Contains(filterTerm) ||
+                                             p.Description.Contains(filterTerm))
+                    .ToList();
+            }
             return View(books);
         }
-       
-        public IActionResult Details(int id)
+            public IActionResult Details(int id)
         {
             var books = _context.Books.Include(p => p.Author)
                                       .Where(p => p.Id == id)
@@ -42,9 +49,9 @@ namespace OnlineLibrary.Controllers
         public IActionResult Create([Bind("Title,Description, Category, ISBN, AuthorID")] Book book)
         {
             book.PhotoPath = "path ";
-            var authorExists = _context.Authors.Where(p => p.Id == book.AuthorID 
+            var authorExists = _context.Authors.Where(p => p.Id == book.AuthorID
                                                             && p.IsDeleted != true &&
-                                                            p.IsActive!= false)
+                                                            p.IsActive != false)
                                .FirstOrDefault();
             if (authorExists == null)
             {
@@ -87,7 +94,7 @@ namespace OnlineLibrary.Controllers
             }
 
         }
-       //Delete action pa view
+        //Delete action pa view
 
         [HttpPost, ActionName("Delete")]
         public IActionResult Delete(int Id)
@@ -103,37 +110,5 @@ namespace OnlineLibrary.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        [HttpGet("filterbooks")]
-        public IActionResult FilterBook(string? title, string? description, string? category, string? isbn, string? authorName)
-        {
-            var filteredBooks = _context.Books.ToList();
-
-            if (!string.IsNullOrEmpty(title))
-            {
-                filteredBooks = filteredBooks.Where(p => p.Title.Contains(title)).ToList();
-            }
-
-            if (!string.IsNullOrEmpty(description))
-            {
-                filteredBooks = filteredBooks.Where(p => p.Description.Contains(description)).ToList();
-            }
-
-            if (!string.IsNullOrEmpty(category))
-            {
-                filteredBooks = filteredBooks.Where(p => p.Category.Contains(category)).ToList();
-            }
-
-            if (!string.IsNullOrEmpty(isbn))
-            {
-                filteredBooks = filteredBooks.Where(p => p.ISBN.Contains(isbn)).ToList();
-            }
-
-            if (!string.IsNullOrEmpty(authorName))
-            {
-                filteredBooks = filteredBooks.Where(p => p.Author.FullName.Contains(authorName)).ToList();
-            }
-
-            return Ok(filteredBooks);
-        }
     }
 }

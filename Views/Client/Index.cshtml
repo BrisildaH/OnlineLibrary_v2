@@ -1,14 +1,13 @@
 ﻿@model IEnumerable<OnlineLibrary.DataLayer.Entiteties.Client>
 
 <a asp-action="Create">Create New</a>
-
-<div class="card">
-    <!-- Search Form -->
-    <form asp-controller="Client" asp-action="FilterClient" method="get" class="search-form">
-        <input type="text" id="fullname" name="fullname" placeholder="Search by Full Name...">
-        <input type="text" id="email" name="email" placeholder="Search by Email...">
-        <button type="submit" class="search-button">Search</button>
-    </form>
+@using (Html.BeginForm("Index", "Client", FormMethod.Get))
+{
+    <label> Filter</label>
+    @Html.TextBox("filterTerm")
+    ;
+    <input type="submit" value="Filter" />
+}
 
     <table class="table table-bordered table-hover">
         <thead class="thead-dark">
@@ -32,7 +31,7 @@
                         <ul>
                             @foreach (var clientbook in item.ClientBooks)
                             {
-                                if (clientbook.Book.IsDeleted != true)
+                            if (clientbook.Book.IsDeleted.HasValue && clientbook.Book.IsDeleted != true)
                                 {
                                     <li>@clientbook.Book.Title</li>
                                 }

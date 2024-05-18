@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OnlineLibrary.DataLayer.DBContext;
 
@@ -11,9 +12,11 @@ using OnlineLibrary.DataLayer.DBContext;
 namespace OnlineLibrary.Migrations
 {
     [DbContext(typeof(OnlineLibraryDbContext))]
-    partial class OnlineLibraryDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240512122538_MigrationUser1")]
+    partial class MigrationUser1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

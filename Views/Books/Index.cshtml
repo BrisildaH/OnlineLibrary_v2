@@ -1,138 +1,143 @@
 ﻿@model IEnumerable<OnlineLibrary.DataLayer.Entiteties.Book>
-<a asp-action="Create">Create New</a>
-<div class="card">
-    @* //Search *@
-    <form asp-controller="Book" asp-action="FilterBook" method="get" class="search-form">
-        <input type="text" id="title" name="title" placeholder="Search by Title...">
-        <input type="text" id="description" name="description" placeholder="Search by Description...">
-        <input type="text" id="category" name="category" placeholder="Search by Category...">
-        <input type="text" id="authorName" name="authorName" placeholder="Search by Author Name...">
-        <input type="text" id="isbn" name="isbn" placeholder="Search by ISBN...">
-        <button type="submit" class="search-button">Search</button>
-    </form>
 
-    <table class="table table-bordered table-hover">
-        <thead class="thead-dark">
-            <tr>
-              @*   <th scope="col">Id</th> *@
-                <th scope="col">Title</th>
-                <th scope="col">Description</th>
-                <th scope="col">Category</th>
-                <th scope="col">Author</th>
-                <th scope="col">ISBN</th>
-                <th>Action</th>
-            </tr>
-        </thead>
-        <tbody>
-          
-        </tr>
-        @foreach (var item in Model)
-        {
-            <tr>
-               @*  <td>
-                    @item.Id
-                </td> *@
-                <td>
-                    @item.Title
-                </td>
-                <td>
-                    @item.Description
-                </td>
-                <td>
-                    @item.Category
-                </td>
-               
-                <td>
-                    @item.Author.FullName
-                </td>
-                <td>
-                    @item.ISBN
-                </td>
-                
-                    <td>
-                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> 
-                        <a asp-action="Update" asp-route-id="@item.Id">Update</a>
-                    </td>      
-            </tr>
-        }
-        </tbody>
-    </table>
+@* <link rel="stylesheet" type="text/css" href="styles.css"> *@
+
+<div class="container">
+	
+	<a class="btn" href="/Books/Create">Create New</a>
+
+	<form action="/Books/Index" method="get">
+		<label>Filter</label>
+		<input type="text" name="filterTerm" placeholder="Enter search term...">
+		<button type="submit">Filter</button>
+	</form>
+@* 
+<a asp-action="Create">Create New</a> *@
+@* //Search *@
+@* @using (Html.BeginForm("Index", "Books", FormMethod.Get))
+{
+	<label> Filter</label>
+	@Html.TextBox("filterTerm")
+	;
+	<input type="submit" value="Filter" />
+}
+ *@
+<div class="card">
+
+	<table class="table table-bordered table-hover">
+		<thead class="thead-dark">
+			<tr>
+				@*   <th scope="col">Id</th> *@
+				<th scope="col">Title</th>
+				<th scope="col">Description</th>
+				<th scope="col">Category</th>
+				<th scope="col">Author</th>
+				<th scope="col">ISBN</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+		<tbody>
+
+			</tr>
+			@foreach (var item in Model)
+			{
+				<tr>
+					@*  <td>
+				@item.Id
+				</td> *@
+					<td>
+						@item.Title
+					</td>
+					<td>
+						@item.Description
+					</td>
+					<td>
+						@item.Category
+					</td>
+
+					<td>
+						@item.Author.FullName
+					</td>
+					<td>
+						@item.ISBN
+					</td>
+
+					<td>
+						<a asp-action="Details" asp-route-id="@item.Id">Details</a>
+						<a asp-action="Update" asp-route-id="@item.Id">Update</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
 </div>
 
 <style>
-	.table {
-		width: 100%;
-		border-collapse: collapse;
-		border-spacing: 0;
+	.container {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 20px;
 	}
 
-		.table th,
-		.table td {
-			padding: 8px;
-			text-align: left;
-			border-bottom: 1px solid #ddd;
+	h1 {
+		text-align: center;
+	}
+
+	.card {
+		margin-top: 20px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		padding: 20px;
+	}
+
+	table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	th, td {
+		padding: 8px;
+		text-align: left;
+		border-bottom: 1px solid #ddd;
+	}
+
+	th {
+		background-color: #f2f2f2;
+	}
+
+	.btn {
+		display: inline-block;
+		padding: 8px 16px;
+		background-color: #007bff;
+		color: #fff;
+		text-decoration: none;
+		border-radius: 5px;
+	}
+
+		.btn:hover {
+			background-color: #0056b3;
 		}
 
-		.table th {
-			background-color: #f2f2f2;
-		}
-
-		.table tbody tr:nth-child(even) {
-			background-color: #f2f2f2;
-		}
-
-		.table tbody tr:hover {
-			background-color: #ddd;
-		}
-
-	.search-form {
-		display: flex;
+	form {
 		margin-bottom: 20px;
 	}
 
-		.search-form input {
-			padding: 10px;
-			border: 1px solid #ccc;
-			border-radius: 5px;
-			margin-right: 10px;
-		}
+	input[type="text"] {
+		padding: 8px;
+		width: 200px;
+	}
 
-	.search-button {
-		padding: 10px 20px;
-		background-color: #007bff;
+	button[type="submit"] {
+		padding: 8px 16px;
+		background-color: #28a745;
 		color: #fff;
 		border: none;
 		border-radius: 5px;
 		cursor: pointer;
 	}
 
-		.search-button:hover {
-			background-color: #0056b3;
+		button[type="submit"]:hover {
+			background-color: #218838;
 		}
 
-	.book-list {
-		list-style-type: none;
-		padding: 0;
-	}
-
-		.book-list li {
-			background-color: #f2f2f2;
-			padding: 10px;
-			margin-bottom: 10px;
-			border-radius: 5px;
-		}
-
-			.book-list li:hover {
-				background-color: #ddd;
-			}
-
-			.book-list li a {
-				color: #007bff;
-				text-decoration: none;
-				margin-right: 10px;
-			}
-
-				.book-list li a:hover {
-					text-decoration: underline;
-				}
 </style>

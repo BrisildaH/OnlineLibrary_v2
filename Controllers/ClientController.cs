@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.EntityFrameworkCore;
 using OnlineLibrary.DataLayer.DBContext;
 using OnlineLibrary.DataLayer.Entiteties;
@@ -13,14 +14,20 @@ namespace OnlineLibrary.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public IActionResult Index([FromQuery] string filterTerm)
         {
             var clients = _context.Clients
-                                  .Include(p => p.ClientBooks)
-                                   .ThenInclude(p=>p.Book)
-                                  .Where(p => (p.IsDeleted == false || p.IsDeleted == null))
-                                  .OrderBy(p => p.FullName)
-                                  .ToList();
+           .Include(p => p.ClientBooks)
+                .ThenInclude(p => p.Book)
+          .Where(p => (p.IsDeleted == false || p.IsDeleted == null))
+          .OrderBy(p => p.FullName)
+          .ToList();
+            if (!string.IsNullOrEmpty(filterTerm))
+            {
+                clients = clients.Where(p => p.FullName.Contains(filterTerm) ||
+                                             p.Email.Contains(filterTerm))
+                    .ToList();
+            }
             return View(clients);
 
         }
@@ -121,27 +128,8 @@ namespace OnlineLibrary.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        public IActionResult FilterClient(string? fullname, string? email)
-        {
-            var filteredClients = _context.Clients.ToList();
-
-            if (!string.IsNullOrEmpty(fullname))
-            {
-                var lowercaseFullname = fullname.ToLower();
-                filteredClients = filteredClients.Where(p => p.FullName.ToLower().Contains(lowercaseFullname)).ToList();
-            }
-
-            if (!string.IsNullOrEmpty(email))
-            {
-                var lowercaseEmail = email.ToLower();
-                filteredClients = filteredClients.Where(p => p.Email.ToLower().Contains(lowercaseEmail)).ToList();
-            }
-
-            return Ok(filteredClients);
-        }
     }
+
 }
-
-
 
 

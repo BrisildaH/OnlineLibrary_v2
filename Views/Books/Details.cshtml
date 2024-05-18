@@ -1,4 +1,5 @@
 ﻿@model OnlineLibrary.DataLayer.Entiteties.Book
+@using System.Security.Claims
 <div class="card">
     <div class="card-header">
         <img src="/images/books/@Model.PhotoPath" width="300" height="400" />
@@ -11,10 +12,14 @@
         <p>@Model.Category</p>
         <h4>ISBN:</h4>
         <p>@Model.ISBN</p>
-        <form asp-action="Delete">
-            <input type="hidden" asp-for="Id" />
+         @if (User.Identity.IsAuthenticated &&
+                        User.Claims.Where(p => p.Type == ClaimTypes.Role).FirstOrDefault() != null &&
+                        User.Claims.Where(p => p.Type == ClaimTypes.Role).FirstOrDefault().Value == "Admin")
+        {
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
             <input type="submit" value="Delete" class="btn btn-danger" />
-        </form>
+        </form>}
     </div>
 </div>
 

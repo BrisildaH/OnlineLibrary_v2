@@ -1,4 +1,5 @@
 ﻿@model OnlineLibrary.DataLayer.Entiteties.Author
+@using System.Security.Claims
 <div class="card">
 	<div class="card-header">
 		<img src="/images/authors/@Model.PhotoPath" width="300" height="400" />
@@ -9,28 +10,31 @@
 		<p>@Model.Description</p>
 		<h4>Number of books:</h4>
 		<p>@Model.NumberOfBooks</p>
-
-		<a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-primary">Update</a>
-
-		<form asp-action="Delete" style="display: inline;">
-			<input type="hidden" asp-for="Id" />
-			<input type="submit" value="Delete" class="btn btn-danger" />
-		</form>
-
-		@if (Model.IsActive.HasValue && Model.IsActive == false)
+		 @if (User.Identity.IsAuthenticated &&
+						User.Claims.Where(p => p.Type == ClaimTypes.Role).FirstOrDefault() != null &&
+						User.Claims.Where(p => p.Type == ClaimTypes.Role).FirstOrDefault().Value == "Admin")
 		{
-			<form asp-action="Activate" style="display: inline;">
+			<a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-primary">Update</a>
+
+			<form asp-action="Delete" style="display: inline;">
 				<input type="hidden" asp-for="Id" />
-				<input type="submit" value="Activate" class="btn btn-success" />
+				<input type="submit" value="Delete" class="btn btn-danger" />
 			</form>
-		}
-		else
-		{
-			<form asp-action="Deactivate" style="display: inline;">
-				<input type="hidden" asp-for="Id" />
+
+			@if (Model.IsActive.HasValue && Model.IsActive == false)
+			{
+				<form asp-action="Activate" style="display: inline;">
+					<input type="hidden" asp-for="Id" />
+					<input type="submit" value="Activate" class="btn btn-success" />
+				</form>
+			}
+			else
+			{
+				<form asp-action="Deactivate" style="display: inline;">
+					<input type="hidden" asp-for="Id" />
 				<input type="submit" value="Deactivate" class="btn btn-warning" />
 			</form>
-		}
+		}}
 	</div>
 </div>
 

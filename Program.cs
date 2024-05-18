@@ -1,6 +1,10 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using OnlineLibrary.BusinessLayer.Service;
 using OnlineLibrary.DataLayer.DBContext;
+using OnlineLibrary.DataLayer.Entiteties;
 using OnlineLibrary.DataLayer.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +16,26 @@ builder.Services.AddDbContext<OnlineLibraryDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("Library"));
 });
+
+#region Identity
+builder.Services.AddIdentity<User, IdentityRole>()
+ .AddEntityFrameworkStores<OnlineLibraryDbContext>()
+ .AddDefaultTokenProviders();
+builder.Services.AddAuthorization();
+builder.Services.AddAuthentication(
+    CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(option =>
+    {
+        option.LoginPath = "/account/login";
+        option.ExpireTimeSpan = TimeSpan.FromMinutes(60);
+    });
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddOptions();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
+
+#endregion
+
 //Dependency Injection
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 
