@@ -1,12 +1,15 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
 using Microsoft.IdentityModel.Tokens;
 using OnlineLibrary.DataLayer.DBContext;
 using OnlineLibrary.DataLayer.Entiteties;
 using OnlineLibrary.Models;
+using System.Data;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -21,35 +24,64 @@ namespace OnlineLibrary.Controllers
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly SignInManager<User> _signManager;
         private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly IConfiguration _config;
         public AccountController(OnlineLibraryDbContext onlineLibraryDbContext,
            UserManager<User> userManager,
            RoleManager<IdentityRole> roleManager,
            IHttpContextAccessor httpContextAccessor,
+            IConfiguration configuration,
            SignInManager<User> signManager)
+           
         {
             _onlineLibraryDbContext = onlineLibraryDbContext;
+
+
             _userManager = userManager;
             _roleManager = roleManager;
             _httpContextAccessor = httpContextAccessor;
             _signManager = signManager;
+            _config = configuration;
         }
-        public IActionResult Index([FromQuery] string filterTerm)
-        {
-            var users = _onlineLibraryDbContext.Users
-                 //.Include(p => p.)
-                 .Where(p => (p.IsDelete == false || p.IsDelete == null))
-                 .OrderBy(p => p.FullName)
-                 .ToList();
+		public async Task<IActionResult> Index(string filterTerm)
+		{
+			var users = _onlineLibraryDbContext.Users
+		.Where(p => (p.IsDelete == false || p.IsDelete == null))
+		.OrderBy(p => p.FullName)
+		.ToList();
 
-            if (!string.IsNullOrEmpty(filterTerm))
-            {
-                users = users.Where(p => p.FullName.Contains(filterTerm))
-                                  .ToList();
+			var userModels = new List<UserModel>();
+			foreach (var user in users)
+			{
+				var userModel = new UserModel()
+				{
+					Id = user.Id,
+                    FullName = user.FullName,
+					Email = user.Email,
+					IsActive = user.IsActive,
+					IsAdmin = user.IsAdmin,
+					PhoneNumber = user.PhoneNumber,
+					UserName = user.UserName,
+					CreatedDate = user.CreatedDate,
+                    Roles = new List<string>()
+				};
 
-            }
-            return View(users);
-        }
-        public IActionResult Register()
+				var roles = await _userManager.GetRolesAsync(user);
+				foreach (var role in roles)
+				{
+					userModel.Roles.Add(role);
+				}
+
+				userModels.Add(userModel);
+			}
+
+			if (!string.IsNullOrEmpty(filterTerm))
+			{
+				userModels = userModels.Where(p => p.FullName.Contains(filterTerm)|| p.Email.Contains(filterTerm))
+								  .ToList();
+			}
+			return View(userModels);
+		}
+		public IActionResult Register()
         {
             return View();
         }
@@ -129,15 +161,19 @@ namespace OnlineLibrary.Controllers
                         authClaims.Add(new Claim(ClaimTypes.Role, userRole));
                     }
                     authClaims.Add(new Claim(ClaimTypes.PrimarySid, user.Id));
-                    var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("12356fsy74rhdh"));//Secret key
+
+                    var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["SecretKey"]));//Secret key
+
                     var token = new JwtSecurityToken(
-                        issuer: "https://localhost:44329/", //Your App URL
-                        audience: "https://localhost:44329/", //Your App URL
+                        issuer: _config["Issuer"], //Your App URL
+                        audience: _config["Audience"], //Your App URL
                         expires: DateTime.Now.AddDays(3),
                         claims: authClaims,
                         signingCredentials: new SigningCredentials(authSigningKey, SecurityAlgorithms.HmacSha256)
                         );
+
                     authClaims.Add(new Claim("token", token.Payload.ToString()));
+
                     ClaimsIdentity claimsIdentity = new ClaimsIdentity(authClaims, JwtBearerDefaults.AuthenticationScheme);
                     AuthenticationProperties properties = new AuthenticationProperties()
                     {
@@ -152,7 +188,7 @@ namespace OnlineLibrary.Controllers
                     {
                         await _onlineLibraryDbContext.UserLogins.AddAsync(new IdentityUserLogin<string>()
                         {
-                            LoginProvider = "Simple Web Application Log in",
+                            LoginProvider = "Simple Web Application Log in" + user.Id,
                             ProviderDisplayName = "Application Log in",
                             UserId = user.Id,
                             ProviderKey = "User Password",
@@ -213,12 +249,33 @@ namespace OnlineLibrary.Controllers
                 return StatusCode(500, "Error in getting profile");
             }
         }
-        public IActionResult Details(int id)
+        public async Task<IActionResult> Details(string id)
         {
-            var users = _onlineLibraryDbContext.Users
-                                      .Where(p => p.Id == id.ToString())
+			var user = _onlineLibraryDbContext.Users
+									  .Where(p => p.Id == id.ToString())
                                       .FirstOrDefault();
-            return View(users);
+
+			var userModel = new UserModel()
+			{
+				Id = user.Id,
+				FullName = user.FullName,
+				Email = user.Email,
+				IsActive = user.IsActive,
+				IsAdmin = user.IsAdmin,
+				PhoneNumber = user.PhoneNumber,
+				UserName = user.UserName,
+				CreatedDate = user.CreatedDate,
+				Roles = new List<string>(),
+                PhotoPath= user.PhotoPath
+			};
+
+			var roles = await _userManager.GetRolesAsync(user);
+			foreach (var role in roles)
+			{
+				userModel.Roles.Add(role);
+			}
+			
+			return View(userModel);
         }
 
         [HttpPost, ActionName("LogOut")]
@@ -237,6 +294,73 @@ namespace OnlineLibrary.Controllers
                 return StatusCode(500, "Error in logging out");
             }
         }
-    }
+		[Authorize(Roles = "Admin")]
+		public async Task<IActionResult> UpdateUserRole(string id)
+		{
+			try
+			{
+				var user = await _userManager.FindByIdAsync(id);
+				if (user == null)
+				{
+					throw new Exception("User not found");
+				}
+				var userRoleDisplayModel = new UserRoleDisplayModel()
+				{
+					FullName = user.FullName,
+					Role = (await _userManager.GetRolesAsync(user)).FirstOrDefault(),
+                    Roles = _onlineLibraryDbContext.Roles.ToList()
+				};
+				return View(userRoleDisplayModel);
+			}
+			catch (Exception ex)
+			{
+				ViewBag.ErrorMessage = $"{ex.Message}";
+				return View();
+			}
+		}
+		[Authorize(Roles = "Admin")]
+		[HttpPost, ActionName("UpdateUserRole")]
+		public async Task<IActionResult> UpdateUserRole([Bind("", "")] UserRoleDisplayModel userRolUpdateModel)
+		{
+			try
+			{
+				var user = _onlineLibraryDbContext.Users.Where(p => p.FullName.Contains(userRolUpdateModel.FullName))
+					.FirstOrDefault();
+				if (user == null)
+				{
+					throw new Exception("User not found");
+				}
+				var role = _onlineLibraryDbContext.Roles.Where(p => p.Id == userRolUpdateModel.Role)
+					.FirstOrDefault();
+
+				if (role == null)
+				{
+					throw new Exception("Role not found");
+				}
+
+				var userRole = _onlineLibraryDbContext.UserRoles.Where(p => p.UserId == user.Id).FirstOrDefault();
+				_onlineLibraryDbContext.UserRoles.Remove(userRole);
+				_onlineLibraryDbContext.UserRoles.Add(new IdentityUserRole<string>()
+				{
+					RoleId = role.Id,
+					UserId = user.Id
+				});
+				_onlineLibraryDbContext.SaveChanges();
+
+				var userRoleDisplayModel = new UserRoleDisplayModel()
+				{
+					FullName = user.FullName,
+					Role = (await _userManager.GetRolesAsync(user)).FirstOrDefault(),
+					Roles = _onlineLibraryDbContext.Roles.ToList()
+				};
+				return View("UpdateUserRole", userRoleDisplayModel);
+			}
+			catch (Exception ex)
+			{
+				ViewBag.ErrorMessage = $"{ex.Message}";
+				return View();
+			}
+		}
+	}
 }
 

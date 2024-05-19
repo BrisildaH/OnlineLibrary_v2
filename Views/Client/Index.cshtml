@@ -31,7 +31,7 @@
                         <ul>
                             @foreach (var clientbook in item.ClientBooks)
                             {
-                            if (clientbook.Book.IsDeleted.HasValue && clientbook.Book.IsDeleted != true)
+                            if (!clientbook.Book.IsDeleted.HasValue)
                                 {
                                     <li>@clientbook.Book.Title</li>
                                 }

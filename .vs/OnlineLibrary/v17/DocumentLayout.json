@@ -1,113 +1,217 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|c:\\users\\user\\desktop\\.net\\coding\\11. asp.net core mvc\\onlinelibrary\\views\\client\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\client\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\datalayer\\entiteties\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\entiteties\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\account\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\account\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\datalayer\\entiteties\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\entiteties\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\views\\authors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\authors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\authors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|c:\\users\\user\\desktop\\.net\\coding\\onlinelibrary\\views\\account\\updateuserrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\account\\updateuserrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|c:\\users\\user\\desktop\\.net\\coding\\onlinelibrary\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|c:\\users\\user\\desktop\\.net\\coding\\onlinelibrary\\models\\userroledisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:models\\userroledisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\datalayer\\entiteties\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\entiteties\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|c:\\users\\user\\desktop\\.net\\coding\\onlinelibrary\\models\\userroleupdatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:models\\userroleupdatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\controllers\\clientbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:controllers\\clientbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\views\\client\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\client\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\datalayer\\dbcontext\\onlinelibrarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\dbcontext\\onlinelibrarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\controllers\\rentbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:controllers\\rentbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\datalayer\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\datalayer\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\views\\rentbook\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\rentbook\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\views\\rentbook\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\rentbook\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\rentbook\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\models\\rentbook.model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\rentbook\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\rentbook\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|c:\\users\\user\\desktop\\.net\\coding\\onlinelibrary\\models\\userprofilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:models\\userprofilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\models\\rentbook.model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:models\\rentbook.model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\datalayer\\entiteties\\clientbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\authors\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\authors\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\authors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\authors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\account\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\account\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\datalayer\\entiteties\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\entiteties\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\datalayer\\dbcontext\\onlinelibrarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\dbcontext\\onlinelibrarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|c:\\users\\user\\desktop\\.net\\coding\\onlinelibrary\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\controllers\\rentbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:controllers\\rentbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\controllers\\clientbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:controllers\\clientbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\books\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\books\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|c:\\users\\user\\desktop\\.net\\coding\\onlinelibrary\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:2:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\client\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\client\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\datalayer\\entiteties\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\entiteties\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\datalayer\\entiteties\\clientbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\entiteties\\clientbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\migrations\\20240428085651_addisactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\datalayer\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\datalayer\\entiteties\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\entiteties\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\datalayer\\entiteties\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\entiteties\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\models\\accountregistermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:models\\accountregistermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\onlinelibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:onlinelibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\migrations\\20240512095117_migrationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:migrations\\20240512095117_migrationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|c:\\users\\user\\desktop\\.net\\coding\\onlinelibrary\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:1:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\views\\client\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:views\\client\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\datalayer\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:datalayer\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\migrations\\20240428085651_addisactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:migrations\\20240428085651_addisactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\migrations\\20240428074757_addclient1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\migrations\\20240428074757_addclient1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9AE06E9F-2A06-476C-9C01-DE9B8F2A2989}|OnlineLibrary.csproj|solutionrelative:migrations\\20240428074757_addclient1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -118,7 +222,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 209,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,127 +230,455 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ClientController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Controllers\\ClientController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClientController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Controllers\\ClientController.cs",
-              "RelativeToolTip": "Controllers\\ClientController.cs",
-              "ViewState": "AQIAAHwAAAAAAAAAAAAYwI4AAAAAAAAA",
+              "DocumentIndex": 8,
+              "Title": "UserRoleDisplayModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Models\\UserRoleDisplayModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserRoleDisplayModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Models\\UserRoleDisplayModel.cs",
+              "RelativeToolTip": "Models\\UserRoleDisplayModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T11:44:49.343Z"
+              "WhenOpened": "2024-05-19T09:55:17.397Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "Controllers\\BooksController.cs",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAowIgAAAAJAAAA",
+              "DocumentIndex": 5,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Models\\UserModel.cs",
+              "RelativeToolTip": "Models\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T08:35:26.986Z"
+              "WhenOpened": "2024-05-19T08:53:50.718Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ClientBookController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Controllers\\ClientBookController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClientBookController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Controllers\\ClientBookController.cs",
-              "RelativeToolTip": "Controllers\\ClientBookController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBYAAAAHAAAA",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T11:42:47.901Z"
+              "WhenOpened": "2024-05-19T07:35:34.553Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Author.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Entiteties\\Author.cs",
-              "RelativeDocumentMoniker": "DataLayer\\Entiteties\\Author.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Entiteties\\Author.cs",
-              "RelativeToolTip": "DataLayer\\Entiteties\\Author.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAxwBUAAAAlAAAA",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAFEBAAAAAAAAAAAAAEMBAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T08:54:01.574Z"
+              "WhenOpened": "2024-05-12T11:25:13.631Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Entiteties\\Book.cs",
-              "RelativeDocumentMoniker": "DataLayer\\Entiteties\\Book.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Entiteties\\Book.cs",
-              "RelativeToolTip": "DataLayer\\Entiteties\\Book.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAkwBgAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T08:28:30.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Entiteties\\Client.cs",
-              "RelativeDocumentMoniker": "DataLayer\\Entiteties\\Client.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Entiteties\\Client.cs",
-              "RelativeToolTip": "DataLayer\\Entiteties\\Client.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA3wA4AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T07:42:10.628Z"
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-18T12:12:43.126Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Client\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Client\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Client\\Index.cshtml",
-              "RelativeToolTip": "Views\\Client\\Index.cshtml",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAACYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T20:08:13.288Z"
+              "Title": "UserRoleUpdateModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Models\\UserRoleUpdateModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserRoleUpdateModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Models\\UserRoleUpdateModel.cs",
+              "RelativeToolTip": "Models\\UserRoleUpdateModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T09:56:19.542Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Books\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Books\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Books\\Index.cshtml",
-              "RelativeToolTip": "Views\\Books\\Index.cshtml",
-              "ViewState": "AQIAACsAAAAAAAAAAAAAADwAAAAAAAAA",
+              "Title": "UpdateUserRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Account\\UpdateUserRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\UpdateUserRole.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Account\\UpdateUserRole.cshtml",
+              "RelativeToolTip": "Views\\Account\\UpdateUserRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T09:38:16.722Z"
+              "WhenOpened": "2024-05-19T10:13:29.75Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AuthorsController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Controllers\\AuthorsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthorsController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Controllers\\AuthorsController.cs",
-              "RelativeToolTip": "Controllers\\AuthorsController.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAuwHUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T07:19:29.237Z"
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T21:37:23.573Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Client\\Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Authors\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\Authors\\Update.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Authors\\Update.cshtml",
+              "RelativeToolTip": "Views\\Authors\\Update.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T11:44:50.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Authors\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Authors\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Authors\\Create.cshtml",
+              "RelativeToolTip": "Views\\Authors\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T11:20:59.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Account\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Account\\Details.cshtml",
+              "RelativeToolTip": "Views\\Account\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T08:48:56.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "Views\\Account\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T08:10:33.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Books\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Update.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Books\\Update.cshtml",
+              "RelativeToolTip": "Views\\Books\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T19:36:35.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MyProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Account\\MyProfile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\MyProfile.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Account\\MyProfile.cshtml",
+              "RelativeToolTip": "Views\\Account\\MyProfile.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAgwCAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T13:16:37.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserProfileModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Models\\UserProfileModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserProfileModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Models\\UserProfileModel.cs",
+              "RelativeToolTip": "Models\\UserProfileModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T12:44:46.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T12:06:38.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LogInModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Models\\LogInModel.cs",
+              "RelativeDocumentMoniker": "Models\\LogInModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Models\\LogInModel.cs",
+              "RelativeToolTip": "Models\\LogInModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:59:12.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "OnlineLibrary",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\OnlineLibrary.csproj",
+              "RelativeDocumentMoniker": "OnlineLibrary.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\OnlineLibrary.csproj",
+              "RelativeToolTip": "OnlineLibrary.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-12T11:58:23.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T11:34:51.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AccountRegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Models\\AccountRegisterModel.cs",
+              "RelativeDocumentMoniker": "Models\\AccountRegisterModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Models\\AccountRegisterModel.cs",
+              "RelativeToolTip": "Models\\AccountRegisterModel.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAQwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:32:18.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20240512095117_MigrationUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Migrations\\20240512095117_MigrationUser.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240512095117_MigrationUser.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Migrations\\20240512095117_MigrationUser.cs",
+              "RelativeToolTip": "Migrations\\20240512095117_MigrationUser.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T09:51:30.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\DataLayer\\Entiteties\\User.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Entiteties\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\DataLayer\\Entiteties\\User.cs",
+              "RelativeToolTip": "DataLayer\\Entiteties\\User.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T09:38:51.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAowBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T09:02:07.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T20:53:02.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T20:53:02.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Client\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Client\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Client\\Index.cshtml",
+              "RelativeToolTip": "Views\\Client\\Index.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAAAowCEAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T13:58:05.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "Controllers\\ClientController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T11:44:49.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAxwGIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T08:35:26.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ClientBookController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Controllers\\ClientBookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientBookController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Controllers\\ClientBookController.cs",
+              "RelativeToolTip": "Controllers\\ClientBookController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAqwA0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T11:42:47.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\DataLayer\\Entiteties\\Author.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Entiteties\\Author.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\DataLayer\\Entiteties\\Author.cs",
+              "RelativeToolTip": "DataLayer\\Entiteties\\Author.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA/wAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T08:54:01.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\DataLayer\\Entiteties\\Book.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Entiteties\\Book.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\DataLayer\\Entiteties\\Book.cs",
+              "RelativeToolTip": "DataLayer\\Entiteties\\Book.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAUwAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T08:28:30.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\DataLayer\\Entiteties\\Client.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Entiteties\\Client.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\DataLayer\\Entiteties\\Client.cs",
+              "RelativeToolTip": "DataLayer\\Entiteties\\Client.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwA8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T07:42:10.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Client\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Client\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Client\\Index.cshtml",
+              "RelativeToolTip": "Views\\Client\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T20:08:13.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "Views\\Books\\Index.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-28T09:38:16.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthorsController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "Controllers\\AuthorsController.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAqwCYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T07:19:29.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Client\\Update.cshtml",
               "RelativeDocumentMoniker": "Views\\Client\\Update.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Client\\Update.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Client\\Update.cshtml",
               "RelativeToolTip": "Views\\Client\\Update.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -254,120 +686,122 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAcwCoAAABcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-28T12:33:51.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "OnlineLibraryDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\DBContext\\OnlineLibraryDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\DataLayer\\DBContext\\OnlineLibraryDbContext.cs",
               "RelativeDocumentMoniker": "DataLayer\\DBContext\\OnlineLibraryDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\DBContext\\OnlineLibraryDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\DataLayer\\DBContext\\OnlineLibraryDbContext.cs",
               "RelativeToolTip": "DataLayer\\DBContext\\OnlineLibraryDbContext.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAIwBAAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T07:44:22.118Z"
+              "WhenOpened": "2024-04-28T07:44:22.118Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Authors\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Authors\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Authors\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Authors\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Authors\\Index.cshtml",
               "RelativeToolTip": "Views\\Authors\\Index.cshtml",
-              "ViewState": "AQIAAHYAAAAAAAAAAAAwwIEAAAAXAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T09:31:40.217Z"
+              "WhenOpened": "2024-04-28T09:31:40.217Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 31,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Books\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Books\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Books\\Create.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Books\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Books\\Create.cshtml",
               "RelativeToolTip": "Views\\Books\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAADwvzIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-09T21:03:18.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 36,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Client\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Client\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Client\\Details.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Client\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Client\\Details.cshtml",
               "RelativeToolTip": "Views\\Client\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T20:24:19.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T20:24:19.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 33,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Client\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Client\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Client\\Create.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Client\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Client\\Create.cshtml",
               "RelativeToolTip": "Views\\Client\\Create.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAA0AAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-09T20:57:41.175Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Authors\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Authors\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Authors\\Details.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Authors\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Authors\\Details.cshtml",
               "RelativeToolTip": "Views\\Authors\\Details.cshtml",
-              "ViewState": "AQIAACAAAAAAAAAAAAAwwD8AAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T08:36:24.874Z"
+              "WhenOpened": "2024-04-28T08:36:24.874Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "RentBookController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Controllers\\RentBookController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Controllers\\RentBookController.cs",
               "RelativeDocumentMoniker": "Controllers\\RentBookController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Controllers\\RentBookController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Controllers\\RentBookController.cs",
               "RelativeToolTip": "Controllers\\RentBookController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAMwB8AAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T12:02:06.808Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 41,
               "Title": "BookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Repositories\\BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\DataLayer\\Repositories\\BookRepository.cs",
               "RelativeDocumentMoniker": "DataLayer\\Repositories\\BookRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Repositories\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\DataLayer\\Repositories\\BookRepository.cs",
               "RelativeToolTip": "DataLayer\\Repositories\\BookRepository.cs",
-              "ViewState": "AQIAAFcAAAAAWkig5p4kwF0AAAADAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAUwAwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T20:14:10.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 50,
               "Title": "IBookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Repositories\\IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\DataLayer\\Repositories\\IBookRepository.cs",
               "RelativeDocumentMoniker": "DataLayer\\Repositories\\IBookRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Repositories\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\DataLayer\\Repositories\\IBookRepository.cs",
               "RelativeToolTip": "DataLayer\\Repositories\\IBookRepository.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAEBAwAsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -375,59 +809,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 11,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\RentBook\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\RentBook\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\RentBook\\Create.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\RentBook\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\RentBook\\Create.cshtml",
               "RelativeToolTip": "Views\\RentBook\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T12:30:05.686Z"
+              "WhenOpened": "2024-04-28T12:30:05.686Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\RentBook\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\RentBook\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\RentBook\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\RentBook\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\RentBook\\Index.cshtml",
               "RelativeToolTip": "Views\\RentBook\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T12:46:19.77Z"
+              "WhenOpened": "2024-04-28T12:46:19.77Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 13,
               "Title": "RentBook.Model.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Models\\RentBook.Model.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Models\\RentBook.Model.cs",
               "RelativeDocumentMoniker": "Models\\RentBook.Model.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Models\\RentBook.Model.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Models\\RentBook.Model.cs",
               "RelativeToolTip": "Models\\RentBook.Model.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T11:42:38.158Z"
+              "WhenOpened": "2024-04-28T11:42:38.158Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 40,
               "Title": "ClientBook.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Entiteties\\ClientBook.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\DataLayer\\Entiteties\\ClientBook.cs",
               "RelativeDocumentMoniker": "DataLayer\\Entiteties\\ClientBook.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\DataLayer\\Entiteties\\ClientBook.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\DataLayer\\Entiteties\\ClientBook.cs",
               "RelativeToolTip": "DataLayer\\Entiteties\\ClientBook.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAswBAAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T11:27:08.923Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 51,
               "Title": "20240428085651_AddIsActive.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Migrations\\20240428085651_AddIsActive.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Migrations\\20240428085651_AddIsActive.cs",
               "RelativeDocumentMoniker": "Migrations\\20240428085651_AddIsActive.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Migrations\\20240428085651_AddIsActive.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Migrations\\20240428085651_AddIsActive.cs",
               "RelativeToolTip": "Migrations\\20240428085651_AddIsActive.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -435,23 +872,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 32,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Books\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Books\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Books\\Details.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Views\\Books\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Views\\Books\\Details.cshtml",
               "RelativeToolTip": "Views\\Books\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABNAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-28T08:46:00.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 52,
               "Title": "20240428074757_AddClient1.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Migrations\\20240428074757_AddClient1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Migrations\\20240428074757_AddClient1.cs",
               "RelativeDocumentMoniker": "Migrations\\20240428074757_AddClient1.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\Migrations\\20240428074757_AddClient1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\Migrations\\20240428074757_AddClient1.cs",
               "RelativeToolTip": "Migrations\\20240428074757_AddClient1.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

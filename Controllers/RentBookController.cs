@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OnlineLibrary.DataLayer.DBContext;
 using OnlineLibrary.DataLayer.Entiteties;
@@ -13,6 +14,7 @@ namespace OnlineLibrary.Controllers
         {
             _context = context;
         }
+		[Authorize(Roles = "Admin")]
 		public IActionResult Index()
 		{
 			
@@ -25,6 +27,7 @@ namespace OnlineLibrary.Controllers
 
 			return View(rentBooks);
 		}
+		[Authorize(Roles = "Admin")]
 		public IActionResult Create()
         {
             var rentbookModel = new RentBookModel();

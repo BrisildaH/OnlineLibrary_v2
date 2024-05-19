@@ -9,95 +9,119 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OnlineLibrary
 build_property.RootNamespace = OnlineLibrary
-build_property.ProjectDir = C:\Users\User\Desktop\.NET\Coding\11. ASP.NET core MVC\OnlineLibrary\
+build_property.ProjectDir = C:\Users\User\Desktop\.NET\Coding\OnlineLibrary\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\.NET\Coding\11. ASP.NET core MVC\OnlineLibrary
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\.NET\Coding\OnlineLibrary
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/Authors/Create.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Account/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Account/MyProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxNeVByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Account/UpdateUserRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVcGRhdGVVc2VyUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Authors/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/Authors/Details.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Authors/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/Authors/Index.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Authors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/Authors/Update.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Authors/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/Books/Create.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Books/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/Books/Details.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Books/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/Books/Index.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Books/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/Books/Update.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Books/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/Client/Create.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Client/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/Client/Details.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Client/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/Client/Index.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Client/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/Client/Update.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Client/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/Home/Index.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/Home/Privacy.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/RentBook/Create.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/RentBook/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudEJvb2tcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/RentBook/Index.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/RentBook/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudEJvb2tcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/Shared/Error.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/_ViewImports.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/_ViewStart.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/.NET/Coding/11. ASP.NET core MVC/OnlineLibrary/Views/Shared/_Layout.cshtml]
+[C:/Users/User/Desktop/.NET/Coding/OnlineLibrary/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ftl85q4llx

@@ -1,6 +1,11 @@
 ﻿@model IEnumerable<OnlineLibrary.DataLayer.Entiteties.Author>
 @using System.Security.Claims
-<a asp-action="Create">Create New</a>
+@if (User.Identity.IsAuthenticated &&
+		User.Claims.Where(p => p.Type == ClaimTypes.Role).FirstOrDefault() != null &&
+		User.Claims.Where(p => p.Type == ClaimTypes.Role).FirstOrDefault().Value == "Admin")
+{
+	<a asp-action="Create">Create New</a>
+}
 @using (Html.BeginForm("Index", "Authors", FormMethod.Get))
 {
 	<label> Filter</label>
@@ -49,8 +54,8 @@
 					<td>
 						<a asp-action="Details" asp-route-id="@item.Id">Details</a>
 						@if (User.Identity.IsAuthenticated &&
-																			User.Claims.Where(p => p.Type == ClaimTypes.Role).FirstOrDefault() != null &&
-																			User.Claims.Where(p => p.Type == ClaimTypes.Role).FirstOrDefault().Value == "Admin")
+											User.Claims.Where(p => p.Type == ClaimTypes.Role).FirstOrDefault() != null &&
+											User.Claims.Where(p => p.Type == ClaimTypes.Role).FirstOrDefault().Value == "Admin")
 						{
 							<a asp-action="Update" asp-route-id="@item.Id">Update</a>
 						}
@@ -139,5 +144,6 @@
 				.author-list li a:hover {
 					text-decoration: underline;
 				}
+				<p style="color:red">@ViewBag.ErrorMessage</p>
 </style>
 

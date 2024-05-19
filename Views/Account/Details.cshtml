@@ -1,1 +1,61 @@
-﻿
+﻿@model OnlineLibrary.Models.UserModel
+@using System.Security.Claims
+
+<div class="card">
+	<div class="card-header">
+		<img src="/images/user/@Model.PhotoPath" width="300" height="400" />
+		<h3>User: @Model.FullName</h3>
+	</div>
+	<div class="card-body">
+		<h4>Email:</h4>
+		<p>@Model.Email</p>
+		<h1>Role:</h1>
+		<p>@foreach (var role in Model.Roles)
+						{
+							@role
+						}</p>
+
+		 @if (User.Identity.IsAuthenticated &&
+						User.Claims.Where(p => p.Type == ClaimTypes.Role).FirstOrDefault() != null &&
+						User.Claims.Where(p => p.Type == ClaimTypes.Role).FirstOrDefault().Value == "Admin")
+		{
+			<a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-primary">Update</a>
+			<a asp-action="UpdateUserRole" asp-route-id="@Model.Id" class="btn btn-primary">UpdateUserRole</a>
+
+			<form asp-action="Delete" style="display: inline;">
+				<input type="hidden" asp-for="Id" />
+				<input type="submit" value="Delete" class="btn btn-danger" />
+			</form>
+
+		}
+	</div>
+</div>
+
+<style>
+	.card {
+		max-width: 600px;
+		margin: 20px auto;
+		padding: 20px;
+		border: 1px solid #ddd;
+		border-radius: 10px;
+	}
+
+	.card-header h3 {
+		margin-top: 0;
+	}
+
+	.card-body h4 {
+		margin-top: 20px;
+		margin-bottom: 5px;
+	}
+
+	.card-body p {
+		margin-top: 0;
+	}
+
+	.btn {
+		margin-top: 20px;
+		margin-right: 5px;
+	}
+		<p style="color:red">@ViewBag.ErrorMessage</p>
+</style>

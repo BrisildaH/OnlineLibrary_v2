@@ -1,4 +1,4 @@
-﻿@model IEnumerable<OnlineLibrary.DataLayer.Entiteties.User>
+﻿@model IEnumerable<OnlineLibrary.Models.UserModel>
 
 
 @using (Html.BeginForm("Index", "Users", FormMethod.Get))
@@ -18,6 +18,7 @@
 				<th scope="col">Email</th>
 				<th scope="col">IsActive</th>
 				<th scope="col">IsAdmin</th>
+				<th scope="col">Role</th>
 				<th scope=" col">Status</th>
 				<th>Action</th>
 			</tr>
@@ -37,6 +38,12 @@
 					</td>
 					<td>
 					@item.IsAdmin
+					</td>
+					<td>
+					@foreach (var role in item.Roles)
+						{
+							@role
+						}
 					</td>
 					
 					<td>@(item.IsActive == false ? "Non Active" : "Active")</td>

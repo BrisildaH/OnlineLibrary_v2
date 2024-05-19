@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
 using Microsoft.IdentityModel.Tokens;
@@ -39,8 +40,8 @@ namespace OnlineLibrary.Controllers
                                       .FirstOrDefault();
             return View(books);
         }
-
-        public IActionResult Create()
+		[Authorize(Roles = "Admin")]
+		public IActionResult Create()
         {
             return View();
         }
@@ -71,7 +72,8 @@ namespace OnlineLibrary.Controllers
             }
 
         }
-        public IActionResult Update([FromRoute] int id)
+		[Authorize(Roles = "Admin")]
+		public IActionResult Update([FromRoute] int id)
         {
             var book = _context.Books
                 .Where(p => p.Id == id)
@@ -94,9 +96,10 @@ namespace OnlineLibrary.Controllers
             }
 
         }
-        //Delete action pa view
+		[Authorize(Roles = "Admin")]
+		//Delete action pa view
 
-        [HttpPost, ActionName("Delete")]
+		[HttpPost, ActionName("Delete")]
         public IActionResult Delete(int Id)
         {
             var book = _context.Books

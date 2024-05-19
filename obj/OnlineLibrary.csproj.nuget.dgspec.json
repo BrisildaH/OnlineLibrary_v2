@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\OnlineLibrary.csproj": {}
+    "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\OnlineLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\OnlineLibrary.csproj": {
+    "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\OnlineLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\OnlineLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\OnlineLibrary.csproj",
         "projectName": "OnlineLibrary",
-        "projectPath": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\OnlineLibrary.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\OnlineLibrary.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\.NET\\Coding\\11. ASP.NET core MVC\\OnlineLibrary\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\.NET\\Coding\\OnlineLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,7 +45,19 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.4, )"
             },

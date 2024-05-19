@@ -12,6 +12,7 @@ namespace OnlineLibrary.DataLayer.Entiteties
         public bool? IsDelete { get; set; }
         public bool? IsActive { get; set; }
         public bool? IsAdmin { get; set; }
+       
         public User()
         {
             IsActive = true;

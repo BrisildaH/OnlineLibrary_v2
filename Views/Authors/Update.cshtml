@@ -1,5 +1,5 @@
 ﻿@model OnlineLibrary.DataLayer.Entiteties.Author
-
+@using System.Security.Claims
 @{
     ViewData["Title"] = "Update";
 }
@@ -30,6 +30,7 @@
         margin: auto;
         padding: 10px;
     }
+    <p style="color:red">@ViewBag.ErrorMessage</p>
 </style>
 
 

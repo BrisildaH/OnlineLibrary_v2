@@ -62,7 +62,8 @@ namespace OnlineLibrary.Controllers
             }
 
         }
-        public IActionResult Update([FromRoute] int id)
+		[Authorize(Roles = "Admin")]
+		public IActionResult Update([FromRoute] int id)
         {
             var author = _context.Authors
                 .Where(p => p.Id == id)
@@ -84,9 +85,10 @@ namespace OnlineLibrary.Controllers
                 return StatusCode(500, "Information is invalid");
             }
         }
-        //Delete action pa view
+		[Authorize(Roles = "Admin")]
+		//Delete action pa view
 
-        [HttpPost, ActionName("Delete")]
+		[HttpPost, ActionName("Delete")]
         public IActionResult Delete(int Id)
         {
             var author = _context.Authors
@@ -100,7 +102,9 @@ namespace OnlineLibrary.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        [HttpPost, ActionName("Deactivate")]
+		[Authorize(Roles = "Admin")]
+
+		[HttpPost, ActionName("Deactivate")]
         public IActionResult Deactivate(int Id)
         {
             var author = _context.Authors
@@ -113,8 +117,9 @@ namespace OnlineLibrary.Controllers
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
+		[Authorize(Roles = "Admin")]
 
-        [HttpPost, ActionName("Activate")]
+		[HttpPost, ActionName("Activate")]
         public IActionResult Activate(int Id)
         {
             var author = _context.Authors

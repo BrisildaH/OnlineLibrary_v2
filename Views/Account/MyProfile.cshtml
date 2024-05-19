@@ -1,4 +1,33 @@
 ﻿@model OnlineLibrary.Models.UserProfileModel
-<h4>
-    @Model.FullName
-</h4>
+
+<style>
+    .user-profile {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+        .user-profile h4 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .user-profile h1 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .user-profile img {
+            width: 300px;
+            height: 400px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+</style>
+
+<div class="user-profile">
+    <h4>@Model.FullName</h4>
+    <h1>Contact</h1>
+    <p>@Model.Email</p>
+    <img src="/images/user/@Model.PhotoPath" alt="User Photo" />
+</div>

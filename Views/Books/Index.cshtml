@@ -1,27 +1,18 @@
 ﻿@model IEnumerable<OnlineLibrary.DataLayer.Entiteties.Book>
+@using System.Security.Claims
 
-@* <link rel="stylesheet" type="text/css" href="styles.css"> *@
-
-<div class="container">
-	
-	<a class="btn" href="/Books/Create">Create New</a>
-
+	@if (User.Identity.IsAuthenticated &&
+		User.Claims.Where(p => p.Type == ClaimTypes.Role).FirstOrDefault() != null &&
+		User.Claims.Where(p => p.Type == ClaimTypes.Role).FirstOrDefault().Value == "Admin")
+{
+<a asp-action="Create">Create New</a> 
+}
 	<form action="/Books/Index" method="get">
 		<label>Filter</label>
 		<input type="text" name="filterTerm" placeholder="Enter search term...">
 		<button type="submit">Filter</button>
 	</form>
-@* 
-<a asp-action="Create">Create New</a> *@
-@* //Search *@
-@* @using (Html.BeginForm("Index", "Books", FormMethod.Get))
-{
-	<label> Filter</label>
-	@Html.TextBox("filterTerm")
-	;
-	<input type="submit" value="Filter" />
-}
- *@
+
 <div class="card">
 
 	<table class="table table-bordered table-hover">
@@ -63,8 +54,14 @@
 					</td>
 
 					<td>
-						<a asp-action="Details" asp-route-id="@item.Id">Details</a>
-						<a asp-action="Update" asp-route-id="@item.Id">Update</a>
+						
+							<a asp-action="Details" asp-route-id="@item.Id">Details</a>
+							@if (User.Identity.IsAuthenticated &&
+										User.Claims.Where(p => p.Type == ClaimTypes.Role).FirstOrDefault() != null &&
+										User.Claims.Where(p => p.Type == ClaimTypes.Role).FirstOrDefault().Value == "Admin")
+						{
+							<a asp-action="Update" asp-route-id="@item.Id">Update</a>
+						}
 					</td>
 				</tr>
 			}
@@ -73,71 +70,80 @@
 </div>
 
 <style>
-	.container {
-		max-width: 800px;
-		margin: 0 auto;
-		padding: 20px;
-	}
-
-	h1 {
-		text-align: center;
-	}
-
-	.card {
-		margin-top: 20px;
-		border: 1px solid #ccc;
-		border-radius: 5px;
-		padding: 20px;
-	}
-
-	table {
+	.table {
 		width: 100%;
 		border-collapse: collapse;
+		border-spacing: 0;
 	}
 
-	th, td {
-		padding: 8px;
-		text-align: left;
-		border-bottom: 1px solid #ddd;
-	}
-
-	th {
-		background-color: #f2f2f2;
-	}
-
-	.btn {
-		display: inline-block;
-		padding: 8px 16px;
-		background-color: #007bff;
-		color: #fff;
-		text-decoration: none;
-		border-radius: 5px;
-	}
-
-		.btn:hover {
-			background-color: #0056b3;
+		.table th,
+		.table td {
+			padding: 8px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
 		}
 
-	form {
+		.table th {
+			background-color: #f2f2f2;
+		}
+
+		.table tbody tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+
+		.table tbody tr:hover {
+			background-color: #ddd;
+		}
+
+	.search-form {
+		display: flex;
 		margin-bottom: 20px;
 	}
 
-	input[type="text"] {
-		padding: 8px;
-		width: 200px;
-	}
+		.search-form input {
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			margin-right: 10px;
+		}
 
-	button[type="submit"] {
-		padding: 8px 16px;
-		background-color: #28a745;
+	.search-button {
+		padding: 10px 20px;
+		background-color: #007bff;
 		color: #fff;
 		border: none;
 		border-radius: 5px;
 		cursor: pointer;
 	}
 
-		button[type="submit"]:hover {
-			background-color: #218838;
+		.search-button:hover {
+			background-color: #0056b3;
 		}
 
+	.author-list {
+		list-style-type: none;
+		padding: 0;
+	}
+
+		.author-list li {
+			background-color: #f2f2f2;
+			padding: 10px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+		}
+
+			.author-list li:hover {
+				background-color: #ddd;
+			}
+
+			.author-list li a {
+				color: #007bff;
+				text-decoration: none;
+				margin-right: 10px;
+			}
+
+				.author-list li a:hover {
+					text-decoration: underline;
+				}
+				<p style="color:red">@ViewBag.ErrorMessage</p>
 </style>

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.EntityFrameworkCore;
 using OnlineLibrary.DataLayer.DBContext;
@@ -13,8 +14,8 @@ namespace OnlineLibrary.Controllers
         {
             _context = context;
         }
-
-        public IActionResult Index([FromQuery] string filterTerm)
+		[Authorize(Roles = "Admin")]
+		public IActionResult Index([FromQuery] string filterTerm)
         {
             var clients = _context.Clients
            .Include(p => p.ClientBooks)
@@ -29,17 +30,18 @@ namespace OnlineLibrary.Controllers
                     .ToList();
             }
             return View(clients);
-
         }
-        public IActionResult Details(int id)
+
+		[Authorize(Roles = "Admin")]
+		public IActionResult Details(int id)
         {
             var books = _context.Clients.Where(p => p.ID == id)
                                       .FirstOrDefault();
             return View(books);
         }
 
-
-        public IActionResult Create()
+		[Authorize(Roles = "Admin")]
+		public IActionResult Create()
         {
             return View();
         }
@@ -63,9 +65,10 @@ namespace OnlineLibrary.Controllers
             {
                 return StatusCode(500, "Information is invalid");
             }
-
         }
-        public IActionResult Update([FromRoute] int id)
+
+		[Authorize(Roles = "Admin")]
+		public IActionResult Update([FromRoute] int id)
         {
             var client = _context.Clients
                 .Where(p => p.ID == id)
@@ -86,9 +89,11 @@ namespace OnlineLibrary.Controllers
                 return StatusCode(500, "Information is invalid");
             }
         }
-        //Delete action pa view
 
-        [HttpPost, ActionName("Delete")]
+		[Authorize(Roles = "Admin")]
+		//Delete action pa view
+
+		[HttpPost, ActionName("Delete")]
         public IActionResult Delete(int Id)
         {
             var client = _context.Clients
@@ -102,7 +107,8 @@ namespace OnlineLibrary.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        [HttpPost, ActionName("Deactivate")]
+		[Authorize(Roles = "Admin")]
+		[HttpPost, ActionName("Deactivate")]
         public IActionResult Deactivate(int Id)
         {
             var client = _context.Clients
@@ -115,7 +121,8 @@ namespace OnlineLibrary.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        [HttpPost, ActionName("Activate")]
+		[Authorize(Roles = "Admin")]
+		[HttpPost, ActionName("Activate")]
         public IActionResult Activate(int Id)
         {
             var client = _context.Clients
